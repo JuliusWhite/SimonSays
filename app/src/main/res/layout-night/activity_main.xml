@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".main.MainActivity">
+
+    <Button
+        android:id="@+id/greenBtn"
+        android:layout_width="192dp"
+        android:layout_height="370dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#4CAF50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/redBtn"
+        android:layout_width="192dp"
+        android:layout_height="370dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="#D02A2A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/blueBtn"
+        android:layout_width="192dp"
+        android:layout_height="370dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#2C7CBC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/yellowBtn"
+        android:layout_width="192dp"
+        android:layout_height="370dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#E8D639"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/white_circle"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/whitecircle"
+        android:elevation="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        app:srcCompat="@drawable/grey_citcle"
+        tools:srcCompat="@drawable/grey_citcle" />
+
+    <TextView
+        android:id="@+id/greeting_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="1000dp"
+        android:fontFamily="monospace"
+        android:text="@string/start"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/finalScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="1000dp"
+        android:fontFamily="monospace"
+        android:text="@string/score"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

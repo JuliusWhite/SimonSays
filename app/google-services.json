@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "495050720584",
+    "project_id": "simonsays-damcastelao",
+    "storage_bucket": "simonsays-damcastelao.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495050720584:android:79e3784b69142c81295f7d",
+        "android_client_info": {
+          "package_name": "com.example.simonsays"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495050720584-k29rn4ekk4ihf1agaqjsiaknhkrv190e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF9IExB0T_QteiXwxPkEARBV-BVkNZFq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495050720584-k29rn4ekk4ihf1agaqjsiaknhkrv190e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
